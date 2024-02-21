@@ -9,11 +9,10 @@ void main() {
 
   print("Enter your Age?");
 
-  int? age = int.parse(stdin.readLineSync()!);
+  int? age = int.parse(stdin.readLineSync() ?? '');
 
-  ///Go through condition
   if (age > 18) {
-    print(" $name You are allowed to use this platform");
+    print("$name You are allowed to use this platform");
   } else if (age == 18) {
     print("$name You just turned 18!!! >>. Next year you would be allowed in ");
   } else if (age == 10) {
