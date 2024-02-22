@@ -1,10 +1,8 @@
 void main() {
   List list = ['precious', 'ifeanyi', 'agalaba'];
+  final listNew = [];
 
-  list.forEach((value) {
+  for (var value in list) {
     print(value);
-    
-  });
+  }
 }
-
-
