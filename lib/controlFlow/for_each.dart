@@ -1,6 +1,6 @@
 void main() {
   List list = ['precious', 'ifeanyi', 'agalaba'];
-  final listNew = [];
+  final List() = [];
 
   for (var value in list) {
     print(value);

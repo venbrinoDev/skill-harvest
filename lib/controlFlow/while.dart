@@ -17,11 +17,11 @@ void main() async {
   // }
 
   while (i < 20) {
-    i = i + 2;
-    
+    i++;
+
     print("Update server......");
 
-    await Future.delayed(Duration(milliseconds: 1000));
+    await Future.delayed(Duration(milliseconds: 2000));
 
     ///Server broke done
     if (i == 10) {
